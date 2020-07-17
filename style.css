@@ -485,3 +485,158 @@ line-height: 1.4rem;
   from {opacity: .4}
   to {opacity: 1}
 }
+
+
+/*--------------------OUR TEAM--------------------*/
+
+
+.team-wrapper {
+  margin-top: 5rem;
+}
+
+
+.team-wrapper h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  position: relative;
+  color:#316879;
+  margin-top: 3rem;
+}
+
+.team-wrapper h1:before {
+  position: absolute;
+  content: '';
+  border-bottom: 4px solid #f47a60;
+  width: 7rem;
+  margin-top: 2.5rem;
+  margin-left: 2.2rem;
+  
+}
+
+.team-wrapper p {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+
+.team-members {
+  display: flex;
+  margin-top: 2rem;
+}
+
+
+
+.member {
+  margin-left: 2.5rem;
+}
+.member img {
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: 50%;
+}
+
+.member h3 {
+color:#316879;
+font-size: 1rem;
+margin-bottom: 0.3rem;
+}
+
+.member span {
+  color:#ced7d8;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: bold;
+  
+}
+
+.member a {
+  text-decoration: none;
+}
+
+
+/*------------------ HAPPY STORIES --------------*/
+
+
+.stories-wrapper {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+
+.stories-wrapper h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  position: relative;
+  color:#316879;
+  margin-top: 3rem;
+}
+
+.stories-wrapper h1:before {
+  position: absolute;
+  content: '';
+  border-bottom: 4px solid #f47a60;
+  width: 7rem;
+  margin-top: 2.5rem;
+  margin-left: 2.2rem;
+  
+}
+
+.stories-wrapper p {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+
+.story p {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  text-align: left;
+  width: 80%;
+  margin-left: 2rem;
+  
+
+}
+
+
+.story i {
+  font-size: 3rem;
+  color:#ced7d8;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+
+
+
+.story-person img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+
+.story-person {
+  display: flex;
+  margin-left: 2rem;
+}
+
+.story-person h3 {
+  margin-left: 1rem;
+  font-size: 1rem;
+  color:#316879;
+  margin-bottom: 0.3rem;
+}
+
+.story-name span {
+  color:#ced7d8;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: bold;
+  margin-left: 1rem;
+  
+}
