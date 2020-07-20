@@ -333,6 +333,86 @@ body {
 }
 
 
+/*---------------------- HOW IT WORKS ---------------*/
+
+
+.how-it-works-wrapper h1 {
+  font-size: 1.4rem;
+  text-align: center;
+  position: relative;
+  color:#316879;
+  margin-top: 5rem;
+}
+
+.how-it-works-wrapper h1:before {
+  position: absolute;
+  content: '';
+  border-bottom: 4px solid #ff9000;
+  width: 10rem;
+  margin-top: 2.5rem;
+  margin-left: 2.2rem;
+  
+}
+
+.how-it-works-wrapper p {
+  font-size: 1rem;
+  line-height: 1.6rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.how-it-works {
+  
+  margin-left: 3rem;
+  margin-top: 4rem;
+  
+}
+
+
+.step {
+  margin-right: 1.9rem;
+  margin-top: -2rem;
+}
+
+.step p {
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  text-transform: uppercase;
+  color:grey;
+}
+
+
+.hr {
+    
+  width: 11rem;
+ 
+  border: dashed 2px #000;
+  border-color: #ff9000 transparent transparent transparent;
+  border-radius: 50%/60% 60% 0 0;
+  transform: rotate(220deg);
+  margin-left: 2.7rem;
+  position: relative;
+  margin-bottom: 5rem;
+  margin-top: -1rem;
+
+  
+}
+
+.hr1  {
+  width: 10rem;
+  height: 2rem;
+  border: dashed 2px #000;
+  border-color: #ff9000 transparent transparent transparent;
+  border-radius: 50%/60% 60% 0 0;
+  transform: rotate(320deg);
+  margin-left: 2rem;
+  position: relative;
+  margin-top: -3rem;
+}
+
+
 
 /*----------------------- OUR PETS ----------------*/
 
@@ -557,6 +637,85 @@ margin-bottom: 0.3rem;
 }
 
 
+/*-------------------- NEWSLETTER ---------------*/
+
+.newsletter-wrapper {
+  background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0,0,0,0.6)), url(img/newspaper.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 24rem;
+  height:15rem;
+  margin-left:-1rem;
+  margin-top: 4rem;
+  
+}
+
+ 
+.newsletter{
+  position: absolute;
+  display: flex;
+  color:white;
+  margin-top: 0.5rem;
+  
+}
+
+.newsletter-cta{
+  margin-top: 7rem;
+  margin-left: -14rem;
+  
+}
+
+.letter-text {
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.letter-text h3 {
+  color:#ff9000;
+  font-size: 0.8rem;
+}
+
+.letter-text h1 {
+  font-size: 1rem;
+}
+
+.form-control {
+  width:10rem;
+  height: 1.6rem;
+  text-indent: 1rem;
+}
+.btn-info {
+  height: 2rem;
+  width: 5rem;
+  padding-left: 1rem;
+  border:none;
+  background-color: #ff9000;
+  color:white;
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  
+}
+
+.btn-info:hover {
+  background-color:#c28330;
+  cursor: pointer;
+}
+
+.checkbox1 {
+  cursor: pointer;
+  
+}
+
+.checkbox p {
+  font-size: 0.6rem;
+}
+
+.u {
+  cursor: pointer;
+}
+
+
+
 /*------------------ HAPPY STORIES --------------*/
 
 
@@ -639,4 +798,101 @@ margin-bottom: 0.3rem;
   font-weight: bold;
   margin-left: 1rem;
   
+}
+
+
+
+/*--------------------- BLOG ----------------*/
+
+.blog-wrapper {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+
+.blog-wrapper h1 {
+  font-size: 1.4rem;
+  text-align: center;
+  position: relative;
+  color:#316879;
+  margin-top: 3rem;
+}
+
+.blog-wrapper h1:before {
+  position: absolute;
+  content: '';
+  border-bottom: 4px solid #ff9000;
+  width: 6rem;
+  margin-top: 2.5rem;
+  margin-left: 1.5rem;
+  
+}
+
+.blog-wrapper p {
+  font-size: 1rem;
+  line-height: 1.6rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.blog-post {
+  margin-top: 3rem;
+  width: 17rem;
+  margin-left: 2rem;
+}
+
+
+.blog-post span {
+  font-size: 0.7rem;
+  color:grey;
+  text-transform: uppercase;
+}
+
+.blog-post  h3 {
+  font-size: 1rem;
+  color:#316879;
+  line-height: 1.5rem;
+  cursor: pointer;
+}
+
+.blog-post p {
+font-size: 0.9rem;
+margin-top: 0.5rem;
+text-align: left;
+}
+
+
+
+.author {
+  display: flex;
+
+}
+
+.author img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+.author p {
+  margin-left: 0.5rem;
+  color: grey;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.blog-wrapper a {
+  text-decoration: none;
+  padding: 10px 5px;
+  text-decoration: none;
+  display: block;
+  text-align:center;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  background-color: #ff9000;
+  margin-right: 6rem;
+  margin-left: 6rem;
+  margin-top: 2rem;
+  color: #fff;;
 }
