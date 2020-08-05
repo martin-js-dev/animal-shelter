@@ -1,0 +1,125 @@
+
+body {
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+  
+h1 {
+    font-size: 1rem;
+    line-height: 2rem;
+    color:#316879;;
+    margin-top: 3rem;
+    text-transform: uppercase;
+    margin-left: 1rem;
+}
+
+.title-pets-p {
+    margin-top: 1rem;
+    margin-left: 1rem;
+  font-size: 0.9rem;
+  line-height: 1.6rem;
+  
+}
+
+.back-btn a {
+    
+    text-decoration: none;
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align:center;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    border:1px solid #ff9000;
+    margin-right: 12rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    color: #ff9000;
+    border-radius: 7%;
+    padding: 0.5rem;
+    
+}
+
+
+.span-info {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.span-info p {
+    margin-top: 1rem;
+    
+}
+
+.span-info>div span {
+    font-size: 0.7rem;
+}
+
+.span-info>div p {
+    font-size: 0.8rem;
+}
+
+.span1 {
+    margin-top: 2rem;
+}
+.pets {
+    margin-left: 1rem;
+    margin-top: 4rem;
+}
+
+.pet {
+    margin-bottom: 4rem;
+    margin-left: 0rem;
+    margin-top: 2rem;
+}
+
+.pet h3 {
+    color:#568b9b;
+}
+.pet p {
+    font-size: 0.8rem;
+    line-height: 1.6rem;
+  
+}
+
+.pet span {
+    color:grey;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    
+    
+}
+
+
+.pet img {
+    width: 20rem;
+    height: 20rem;
+    margin-bottom: 1rem;
+    
+}
+
+.pet-more a {
+    
+    text-decoration: none;
+    padding: 10px 5px;
+    text-decoration: none;
+    display: block;
+    text-align:center;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    background-color: #ff9000;
+    margin-right: 12rem;
+    margin-top: 1.5rem;
+    color: #fff;;
+    border-radius: 7%;
+    
+}
+
+
+
+.footer-wrapper {
+    margin-top: 5rem;
+  }
