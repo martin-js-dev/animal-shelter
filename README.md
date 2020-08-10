@@ -1,2 +1,2 @@
 # animal-shelter
-responsive website for non-profit organization
+multiple page website for mobile devices about non-profit organization (Animal Shelter) 
