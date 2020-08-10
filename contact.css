@@ -1,0 +1,186 @@
+
+body {
+box-sizing: border-box;
+font-family: 'Montserrat';
+margin-left: 1rem;
+margin-right: 1rem;
+}
+
+
+
+
+
+.back-btn a {
+
+text-decoration: none;
+color: black;
+text-decoration: none;
+display: block;
+text-align:center;
+text-transform: uppercase;
+font-size: 0.9rem;
+border:1px solid #ff9000;
+margin-right: 12rem;
+margin-left: 1rem;
+margin-top: 2rem;
+color: #ff9000;
+border-radius: 7%;
+padding: 0.5rem;
+
+}
+
+.info-wrapper {
+width: 17rem;
+height: 34rem;
+margin-left: 2.2rem;
+margin-top: 5rem;
+background-color: #fff;
+
+}
+
+
+.info {
+margin-top: 2.5rem;
+}
+
+.hr11  {
+height: 0.1px;
+width: 13rem;
+margin-top: 2rem;
+color: #ff9000;
+}
+
+.info h3 {
+color:#568b9b;
+font-size: 0.9rem;
+text-transform: uppercase;
+text-align: center;
+}
+
+.info p {
+font-size: 0.9rem;
+margin-left: 2rem;
+
+}
+
+.info span {
+line-height: 1.6rem;
+font-size: 0.9rem;
+margin-left: 2rem;
+
+}
+
+.info a {
+margin-left: 5rem;
+margin-top: 2.5rem;
+text-decoration: none;
+color:grey;
+text-transform: uppercase;
+font-size: 0.8rem;  
+}
+
+.info button  {
+margin-left: 5rem;
+margin-top: 1rem;
+text-decoration: none;
+color:grey;
+text-transform: uppercase;
+font-size: 0.8rem;
+border: none;
+background-color: #fff;
+font-family: 'Montserrat';
+}
+
+.info button a {
+margin-left: 0rem;
+}
+
+.form-contact{
+padding-bottom: 4rem; 
+margin-top: -5rem;
+}
+
+.form-contact p {
+font-size: 1.4rem;
+color:#316879;
+text-align: center;
+}
+
+
+
+.contact-container {
+width: 15rem;
+height: 15rem;
+padding: 2rem;
+margin-top: 2rem;
+}
+
+.name, .email, .phone, .message {
+width: 15rem;
+padding: 0.6rem;
+border: 1px solid #ccc;
+margin-top: 0.6rem;
+margin-bottom: 0.5rem;
+resize: vertical;
+border-radius: 7%;
+}
+
+.phone {
+margin-left: 0;
+}
+
+.message {
+height: 7rem;
+
+}
+
+.column2 {
+margin-top: 0.6rem;
+margin-left: 0.5rem;
+margin-bottom: 4rem;
+
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+
+.contact-button a{
+text-decoration: none;
+padding: 10px 5px;
+text-decoration: none;
+display: block;
+text-align:center;
+text-transform: uppercase;
+font-size: 0.8rem;
+background-color: #ff9000;
+margin-right: 2rem;
+margin-left: 4rem;
+margin-top: 1rem;
+color: #fff;;
+border-radius: 7%;
+
+}
+
+.contact-button a {
+text-decoration: none;
+color:#fff;
+}
+.contact-form {
+margin-top: -2.5rem;
+
+}
+
+.contact-form label {
+font-size: 0.7rem;
+text-transform: uppercase;
+color: grey;
+}
+
+
+.footer-wrapper {
+margin-top: 10rem;
+}
